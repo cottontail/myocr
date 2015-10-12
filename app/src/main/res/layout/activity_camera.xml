@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+    <com.melody.cool.myocr.ui.AspectFrameLayout
+        android:id="@+id/cameraFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:background="#E6FFFFFF" android:visibility="invisible"
+            android:id="@+id/frontFlashFrame">
+    </FrameLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" android:layout_marginTop="25dp"
+                  android:id="@+id/linearLayout"
+                  android:layout_marginLeft="25dp">
+
+        <ImageView
+                android:id="@+id/switchCameraButton"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                android:background="@drawable/background_view_time"
+                android:src="@drawable/ic_camera_switch" android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"/>
+
+        <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/frontFlashButton"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:padding="10dp"
+                    android:background="@drawable/background_view_time"
+                    android:src="@drawable/ic_flash_off"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:visibility="invisible"/>
+
+            <ImageView
+                    android:id="@+id/backFlashButton"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:padding="10dp"
+                    android:background="@drawable/background_view_time"
+                    android:src="@drawable/ic_flash_off"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" android:layout_gravity="right"
+                  android:layout_marginTop="25dp" android:layout_marginRight="25dp" android:background="#99000000"
+                  android:id="@+id/recordingView" android:visibility="invisible">
+
+        <ImageView
+                android:id="@+id/recordingImage"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_recording_circle" android:padding="3dp"
+                android:layout_gravity="center" android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                />
+
+        <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:id="@+id/timeText" android:text="00:00" android:paddingTop="5dp" android:paddingRight="5dp"
+                android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="25dp">
+
+        <ImageView
+                android:id="@+id/captureImageButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="10dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_view_time"
+                android:src="@drawable/ic_camera_white"/>
+
+    </LinearLayout>
+
+</FrameLayout>

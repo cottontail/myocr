@@ -1,6 +1,7 @@
-package com.melody.cool.myocr;
+package com.melody.cool.myocr.activity;
 
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -24,11 +25,13 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import com.googlecode.tesseract.android.TessBaseAPI;
+import com.melody.cool.myocr.R;
+import com.melody.cool.myocr.camera.CameraActivity;
 
 public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_GALLERY = 0;
     private static final int REQUEST_CAMERA = 1;
-
+    private Context mContext;
     private static final String TAG = MainActivity.class.getSimpleName();
     private TessBaseAPI baseAPI;
     private Uri imageUri;
@@ -37,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mContext = MainActivity.this;
 
         baseAPI = new TessBaseAPI();
         File externalStorageDirectory = Environment.getExternalStorageDirectory();
@@ -66,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                launchCamera();
+                /*
                 String filename = System.currentTimeMillis() + ".jpg";
 
                 ContentValues values = new ContentValues();
@@ -77,8 +84,14 @@ public class MainActivity extends AppCompatActivity {
                 intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
                 startActivityForResult(intent, REQUEST_CAMERA);
+                */
             }
         });
+    }
+
+    //added by haoboy
+    public void launchCamera(){
+        startActivity(new Intent(mContext, CameraActivity.class));
     }
 
     @Override

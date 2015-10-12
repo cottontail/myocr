@@ -6,4 +6,257 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="choose_from_gallery">Choose from gallery</string>
     <string name="take_a_photo">Take a photo</string>
+
+    <string name="title_conversation">Conversation</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_updates">Updates</string>
+    <string name="title_fonts">Fonts</string>
+    <string name="title_choose_recipients">Choose Recipients</string>
+    <string name="title_imoji">Stickers from Imoji</string>
+    <string name="title_emoji_google">Google Emoji</string>
+    <string name="title_emoji_apple">Apple Emoji</string>
+
+    <string name="title_manage_accounts">Add Account</string>
+    <string name="title_managers">Managers</string>
+    <string name="title_follow_me">Follow Me</string>
+    <string name="title_help">Help</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="title_instagram">Instagram</string>
+    <string name="title_switch_account">Switch Account</string>
+
+    <string name="title_about">About</string>
+    <string name="title_account_stats">Account Stats</string>
+    <string name="title_check_purchases">Check for Purchases</string>
+    <string name="title_addons">Addons</string>
+    <string name="title_get_addons">Get Addons</string>
+    <string name="title_get_addons_ads">Remove Ads</string>
+    <string name="title_check_update">Check for Update</string>
+    <string name="title_update">Update</string>
+    <string name="title_knowledge_base">Knowledge Base</string>
+    <string name="title_announcements">Latest Announcements</string>
+    <string name="title_choose_account">Choose Account</string>
+
+
+    <string name="title_username_hint">Username</string>
+
+    <string name="title_message_hint">Send a Chat</string>
+    <string name="title_search_hint">Tap to Search Stickers</string>
+
+    <string name="title_error_occurred">Oops!</string>
+    <string name="title_terms_of_use">Terms of Use</string>
+    <string name="title_info">Information</string>
+
+    <string name="title_session_authtoken">Session AuthToken</string>
+    <string name="title_stories">Stories</string>
+
+    <string name="title_friends">Friends</string>
+    <string name="title_friends_requests">Friend Requests</string>
+    <string name="title_my_stories">My Stories</string>
+
+    <string name="title_chat">Chat</string>
+    <string name="title_send_camera">Launch Camera</string>
+    <string name="title_send_gallery">Choose from Gallery</string>
+    <string name="title_change_colour">Change Colour</string>
+    <string name="title_story_stats">Story Stats</string>
+    <string name="title_imoji_about">About Imoji</string>
+    <string name="title_login_verification" translatable="false">Login Verification</string>
+    <string name="title_login_verification_code" translatable="false">Verification Code</string>
+    <string name="title_all_friends" translatable="false">All Friends</string>
+    <string name="title_my_story" translatable="false">My Story</string>
+    <string name="title_recent" translatable="false">Recent</string>
+    <string name="title_best_friends" translatable="false">Best Friends</string>
+    <string name="title_requests" translatable="false">Requests</string>
+    <string name="title_blocked" translatable="false">Blocked</string>
+    <string name="title_recently_added" translatable="false">Recently Added</string>
+    <string name="title_account" translatable="false">Account</string>
+    <string name="title_clear_conversations" translatable="false">Clear Conversations</string>
+
+    <string name="title_text">Text</string>
+    <string name="title_background">Background</string>
+
+    <string name="title_change_font">Change Font</string>
+    <string name="title_remove_font">Use Default Font</string>
+
+    <string name="action_unsubscribe" translatable="false">Unsubscribe</string>
+    <string name="action_send_snap">Send Snap</string>
+    <string name="action_unfriend">UnFriend</string>
+    <string name="action_edit_display">Edit Name</string>
+    <string name="action_accept_request">Add as Friend</string>
+    <string name="action_delete_request">Delete Friend</string>
+    <string name="action_block_user">Block User</string>
+    <string name="action_unblock_user">Unblock User</string>
+    <string name="action_edit">Edit</string>
+
+    <string name="action_open_drawer">Open Drawer</string>
+    <string name="action_close_drawer">Close Drawer</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="action_mark_viewed">Mark Viewed</string>
+    <string name="action_mark_screenshot">Mark Screenshot</string>
+    <string name="action_mark_replayed">Mark Replayed</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_reauth">Re-Auth Google</string>
+
+    <string name="action_clear_conversation" translatable="false">Clear Conversation</string>
+
+    <string name="action_delete_all_stories">Delete all Stories</string>
+    <string name="action_delete_story">Delete this Story</string>
+    <string name="action_stats">Stats</string>
+
+    <string name="button_add_friend">Add Friend</string>
+    <string name="button_close">Close</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_no">No</string>
+    <string name="button_retry">Retry</string>
+    <string name="button_relaunch">Relaunch</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_choose">Choose</string>
+    <string name="button_update">Update</string>
+    <string name="button_download">Download</string>
+    <string name="button_ok">Okay</string>
+    <string name="button_buy_addon">Buy Addon</string>
+    <string name="button_later">Later</string>
+    <string name="button_photo">Photo</string>
+    <string name="button_video">Video</string>
+    <string name="button_verify" translatable="false">Verify</string>
+    <string name="button_copy" translatable="false">Copy</string>
+
+    <string name="title_confirm_action">Confirm Action</string>
+
+    <string name="button_agree">Agree</string>
+    <string name="button_decline">Decline</string>
+
+    <string name="info_logged_out">\'%1$s\' has been logged out!</string>
+    <string name="info_media_downloading">Media is Downloading!</string>
+
+    <string name="info_saved">Saved!</string>
+    <string name="info_font_downloaded">Font Downloaded!</string>
+    <string name="info_loading_fonts">Loading Fonts</string>
+    <string name="info_downloaded">Downloaded!</string>
+    <string name="info_loading_imoji">Fetching Sticker</string>
+
+    <string name="info_action_failed">Failed, Try again later.</string>
+    <string name="info_font_preview_failed">Failed to fetch Preview</string>
+    <string name="info_addons_relaunch_required">Account:\n%1$s\n\nAddons Purchased:\n%2$s\n\nA relaunch is now required.</string>
+    <string name="info_no_addons_purchased">No Addons Purchased</string>
+    <string name="info_failed_tap_retry">Download Failed, Tap to Retry</string>
+    <string name="info_no_updates">No Updates Available\nRunning v%1$s</string>
+    <string name="info_no_updates_beta">No BETA Updates Available\nRunning v%1$s</string>
+    <string name="info_no_fonts">No Fonts Available</string>
+    <string name="info_no_friends">No Friends?!</string>
+    <string name="info_no_friends_requests">No Friend Requests!</string>
+
+    <string name="info_no_stories">No Stories!</string>
+    <string name="info_device_gallery_intent_error">Multi Gallery file type not supported, what type of media do you want to select?</string>
+    <string name="info_copied_clipboard">Copied AuthToken to Clipboard</string>
+
+    <string name="info_clear_drawing">Clear Drawings?</string>
+    <string name="info_clear_stickers">Clear Stickers?</string>
+    <string name="info_delete_emoji_pack">Delete Emoji Pack?</string>
+
+    <string name="info_select_recipients">Choose at least one Recipient</string>
+    <string name="info_delete_story">Delete this Story?</string>
+    <string name="info_delete_stories">Delete all of your Stories?</string>
+    <string name="info_download_emoji_google">Download Google Emoji Pack?</string>
+    <string name="info_download_emoji_apple">Download Apple Emoji Pack?</string>
+
+    <string name="error_file_not_found">File not Found!</string>
+    <string name="error_file_not_usable">Can\'t use this File</string>
+    <string name="error_file_web_not_usable">Can\'t use internet Files</string>
+    <string name="error_image">Image Decode Failed</string>
+    <string name="error_imoji_load_failed">Failed to download Imoji</string>
+
+    <string name="error_chat_gateway_error">Failed to connect to Chat service.</string>
+    <string name="error_chat_friend_fail">Can not Chat with this User.</string>
+
+   <string name="info_viewed_icon">This icon means you have marked this story as viewed.\n\nIt will show up after refreshing if you just marked a story viewed.</string>
+   <string name="info_chat_unstable">Chat is extremely unstable.\n\nYou can receive messages and send text back.\n\nReceived meida will auto open when received.\n\nI\'ll make it look neat later.</string>
+    <string name="info_marking_viewed">Marking as Viewed!</string>
+    <string name="info_marking_screenshot">Marking as Screenshot!</string>
+    <string name="info_select_font">Once you\'ve downloaded a font tap the font to use it.</string>
+    <string name="info_change_font">To change the caption font, press the three dot icon and select \'Change Font\' when you are in the caption toolbar.</string>
+   <string name="info_update_failed_manually_retry">Failed to download update, go to manual download page?</string>
+    <string name="info_google_reauth">This will invalidate the local Google Token and force a reauth with Google.</string>
+    <string name="info_shared_story" translatable="false">This is a Live Event collection.\n\nThey are automatically added by Snapchat and will disappear after the event.\n\nYou can also unsubscribe by removing them from your friend list.</string>
+
+    <string name="info_addon_multiple_accounts">This is an extra addon.\n\nYou will be able to login to multiple accounts and quickly switch between them.\n\nWould you like to purchase this addon?</string>
+
+    <string-array name="items_caption_colour_type">
+        <item>@string/title_text</item>
+        <item>@string/title_background</item>
+    </string-array>
+
+    <string-array name="items_gallery_type">
+        <item>@string/button_photo</item>
+        <item>@string/button_video</item>
+    </string-array>
+
+
+    <string-array name="items_notification_interval">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="items_notification_interval_readable">
+        <item>15 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>1 Hour</item>
+    </string-array>
+
+    <string name="title_experimental" translatable="false">Experimental</string>
+    <string name="title_experimental_background_uploads" translatable="false">Background Uploads</string>
+   <string name="title_experimental_send_quick_launch" translatable="false">Quick Launch</string>
+    <string name="title_experimental_send_quick_launch_summary" translatable="false">Show floating button to quickly launch Camera or Gallery.</string>
+
+    <string name="title_camera">Camera</string>
+    <string name="title_default_camera">Default Camera</string>
+    <string name="title_default_camera_summary">Choose camera to launch when Camera icon pressed.</string>
+
+    <string-array name="items_camera_default" translatable="false">
+        <item>camera_casper</item>
+        <item>camera_default</item>
+    </string-array>
+
+    <string-array name="items_camera_default_readable">
+        <item>Cool Camera</item>
+        <item>Installed Camera App</item>
+    </string-array>
+
+    <string name="title_storage">Storage</string>
+    <string name="title_media_folder">MyOCR Directory</string>
+    <string name="title_media_folder_summary">You have chosen:\n%1$s\n\nThis is where all saved/downloaded files will be stored.\n\nCasper will create other folders in this directory.\n\nAvoid using external SD Card, if it\'s removed it will go back to saving in the default folder at install\n\nAll saved snaps will NOT be moved to this new folder.\n\nRestart app to take effect?</string>
+    <string name="title_media_clear_cache">Clear Cache</string>
+    <string name="title_media_clear_cache_summary">Clear temp files and Restart.</string>
+
+    <string name="title_about_version">Version</string>
+    <string name="title_about_version_summary">v%1$s</string>
+
+    <string name="button_continue">Continue</string>
+    <string name="button_having_trouble">Having Trouble?</string>
+    <string name="button_learn_more">Learn More</string>
+
+    <string name="pref_settings_select_documents_app" translatable="false">pref_settings_select_documents_app</string>
+    <string name="pref_settings_show_view_time" translatable="false">pref_settings_show_view_time</string>
+    <string name="pref_settings_hide_viewer_toolbar" translatable="false">pref_settings_hide_viewer_toolbar</string>
+    <string name="pref_settings_show_circle_story_icons" translatable="false">pref_settings_show_circle_story_icons</string>
+    <string name="pref_settings_remember_password" translatable="false">pref_settings_remember_password</string>
+    <string name="pref_settings_remember_google" translatable="false">pref_settings_remember_google</string>
+    <string name="pref_settings_blackberry_mode" translatable="false">pref_settings_blackberry_mode</string>
+    <string name="pref_settings_custom_video_thumbnail" translatable="false">pref_settings_custom_video_thumbnail</string>
+    <string name="pref_settings_updates_beta" translatable="false">pref_settings_updates_beta</string>
+    <string name="pref_settings_enable_notifications" translatable="false">pref_settings_enable_notifications</string>
+    <string name="pref_settings_default_camera" translatable="false">pref_settings_default_camera</string>
+    <string name="pref_settings_notifications_interval" translatable="false">pref_settings_notifications_interval</string>
+    <string name="pref_settings_media_folder" translatable="false">pref_settings_media_folder</string>
+    <string name="pref_settings_media_clear_cache" translatable="false">pref_settings_media_clear_cache</string>
+    <string name="pref_settings_experimental_background_uploads" translatable="false">pref_settings_experimental_background_uploads</string>
+    <string name="pref_settings_experimental_send_quick_launch" translatable="false">pref_settings_experimental_send_quick_launch</string>
+    <string name="info_one_moment">One moment</string>
+
+
 </resources>
