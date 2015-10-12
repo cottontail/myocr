@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                launchCamera();
-                /*
+                //launchCamera();
+
                 String filename = System.currentTimeMillis() + ".jpg";
 
                 ContentValues values = new ContentValues();
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
                 startActivityForResult(intent, REQUEST_CAMERA);
-                */
+
             }
         });
     }
